@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chuck Norris Jokes</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+            padding: 50px;
+
+        }
+
+        #joke {
+
+            font-size: 24px;
+
+            margin-bottom: 20px;
+
+        }
+
+        #refresh-btn {
+
+            padding: 10px 20px;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Chuck Norris Jokes</h1>
+
+    <div id="joke">{{ joke }}</div>
+
+    <button id="refresh-btn" onclick="window.location.href='/'">Refresh</button>
+
+
+
+    <script>
+
+        function refreshJoke() {
+
+            location.reload();
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
